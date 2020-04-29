@@ -8,7 +8,7 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '-', case_insensitive=True)
+client = commands.Bot(command_prefix = '1!', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
@@ -45,4 +45,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NjY1MDg0NTY4NjU0NzA4NzM2.XpRlzg.OwcsvISiqvhIM6ebypI8GcbJ1Bs") 
+client.run("NTk1MTU3MDA3NDA1OTQwNzM3.XqlAHA.D23Ic0wEPGEzyyF6c8qY_YmsYEw") 
