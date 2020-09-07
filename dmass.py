@@ -8,13 +8,13 @@ import colorsys
 import random
 import time
 
-client = commands.Bot(command_prefix = '1!', case_insensitive=True)
+client = commands.Bot(command_prefix = '!', case_insensitive=True)
 Client = discord.client
 Clientdiscord = discord.Client()
 
 @client.event
 async def on_ready():
-    await client.change_presence(game=discord.Game(name='ami valo chele akta'))
+    await client.change_presence(game=discord.Game(name='Ami Just Kaj kori Raw Official ar shathe and BPR er Shathe'))
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
@@ -45,4 +45,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NTk1MTU3MDA3NDA1OTQwNzM3.XqlAHA.D23Ic0wEPGEzyyF6c8qY_YmsYEw") 
+client.run("NTk1MTU3MDA3NDA1OTQwNzM3.XRm5KA.gNgw_MqEbS_fkM8vzABGQ4sxq_g") 
